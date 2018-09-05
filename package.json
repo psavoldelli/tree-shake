@@ -29,13 +29,14 @@
     "@babel/preset-env": "^7.0.0",
     "@babel/preset-react": "^7.0.0",
     "babel-loader": "^8.0.2",
+    "lodash-es": "^4.17.10",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
+    "rollup": "^0.65.1",
+    "rollup-plugin-babel": "^4.0.3",
+    "rollup-plugin-node-resolve": "^3.4.0",
     "webpack": "^4.17.2",
     "webpack-cli": "^3.1.0"
   },
-  "dependencies": {
-    "rollup": "^0.65.1",
-    "rollup-plugin-babel": "^4.0.3"
-  }
+  "dependencies": {}
 }
