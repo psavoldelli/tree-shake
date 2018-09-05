@@ -9,7 +9,7 @@ export default {
         format: 'es'
     },
     external: [
-        'react'
+        'react', 'lodash-es'
     ],
     plugins: [
         resolve(),
