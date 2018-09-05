@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Sample webpack tree-shake",
   "main": "dist/index.bundle.js",
+  "sideEffects": false,
   "scripts": {
     "build": "webpack --progress --display-used-exports  --display-optimization-bailout --display verbose ",
     "test": "echo \"Error: no test specified\" && exit 1"
