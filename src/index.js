@@ -1,1 +1,2 @@
-export * from './components/Components';
+export * from './components/Header';
+export * from './components/Title';
