@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Sample webpack tree-shake",
   "main": "dist/index.bundle.js",
-  "module": "dist/es/index.bundle.js",
+  "module": "dist/es/index.js",
   "sideEffects": false,
   "scripts": {
     "build": "webpack --progress --display-used-exports  --display-optimization-bailout --display verbose ",
