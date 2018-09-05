@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Sample webpack tree-shake",
   "main": "dist/index.bundle.js",
+  "module": "dist/es/index.bundle.js",
   "sideEffects": false,
   "scripts": {
     "build": "webpack --progress --display-used-exports  --display-optimization-bailout --display verbose ",
@@ -23,6 +24,7 @@
   },
   "homepage": "https://github.com/psavoldelli/tree-shake#readme",
   "devDependencies": {
+    "@babel/cli": "^7.0.0",
     "@babel/core": "^7.0.0",
     "@babel/preset-env": "^7.0.0",
     "@babel/preset-react": "^7.0.0",
